@@ -1,0 +1,22 @@
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="js/jquery.rotate.js"></script>
+<script src="js/jClocksGMT.js"></script>
+<link rel="stylesheet" href="css/jClocksGMT.css">
+<style>
+    body { font-family: Arial, sans-serif; }
+</style>
+<bosy>
+<div id="clock"></div>
+<script>
+$(document).ready(function(){
+	$('#clock').jClocksGMT(
+	{
+	    title: 'Tokyo',
+	    offset: '+9',
+	    skin: 4,
+	    date:true,
+	    dateformat:'YYYY/MM/DD'
+	});
+});
+</script>
+</body>
